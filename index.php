@@ -2,7 +2,12 @@
 //echo '<p>This is PHP!</p>';
 
 if(isset($_GET["First Name"])){//show feedback
-  echo $_GET["First Name"];
+  //echo $_GET["First Name"];
+  
+  echo '<pre>';
+  var_dump($_GET);
+  echo '</pre>';
+  
 }else{//show form
   echo '
   <form action ="">
